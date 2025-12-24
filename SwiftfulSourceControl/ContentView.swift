@@ -31,11 +31,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("Manjula Uday!")
+           
+            Button("Subscribe") {
+                
+            }
             
             Button("Click Me!") {
                 
