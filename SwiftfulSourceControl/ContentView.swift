@@ -48,6 +48,7 @@ struct ContentView: View {
                 
             }
             Rectangle()
+            Rectangle()
             
             .background(.green)
         }
