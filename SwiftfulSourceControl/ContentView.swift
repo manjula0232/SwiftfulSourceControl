@@ -37,11 +37,11 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Manjula Uday!")
            
-            Button("Subscribe") {
+            Button("Subscribe now.") {
                 
             }
             
-            .background(.red)
+            .background(.green)
         }
         .padding()
     }
