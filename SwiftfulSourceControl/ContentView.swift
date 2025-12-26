@@ -7,6 +7,11 @@
 
 /*
  
+ Clone = Copying the repo locally
+ Commit = Save ("Checkpoint") on our current branch
+ Stage = Prepare changes for commit
+ Stash = Save changes for later
+ 
  COMMIT MESSAGES
  
  NEW FEATURE:
