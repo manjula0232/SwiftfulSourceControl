@@ -38,16 +38,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 20) {
-            Image(systemName: "house.fill")
+        VStack {
+            Image(systemName: "globe")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("Manjula Uday 23")
+            Text("Some new Title!")
            
-            Button("Subscribe now") {
+            Button("Click me") {
                 
             }
-            Rectangle()
             Rectangle()
             
             .background(.green)
