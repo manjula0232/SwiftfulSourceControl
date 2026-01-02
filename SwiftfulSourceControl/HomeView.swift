@@ -11,7 +11,7 @@ struct HomeView: View {
     @State var title: String = "Manjula Uday❤️"
     var body: some View {
         VStack {
-            Text("Hi")
+            Text("Hi Uday")
             Text("Screen 2")
             
         }
