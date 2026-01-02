@@ -40,9 +40,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ScrollView {
-                VStack(spacing: 10) {
-                    ForEach(0..<20) { _ in
-                        Image(systemName: "globe")
+                VStack {
+                    ForEach(0..<5) { _ in
+                        Image(systemName: "magnifyingglass")
                             .font(.largeTitle)
                             .foregroundStyle(.tint)
                         Text("Some new Title!")
@@ -54,10 +54,6 @@ struct ContentView: View {
                 }
             }
               
-                    
-                    Rectangle()
-                   
-            
                 .padding()
             }
         }
