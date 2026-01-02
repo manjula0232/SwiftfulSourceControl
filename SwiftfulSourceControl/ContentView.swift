@@ -53,11 +53,11 @@ struct ContentView: View {
                     }
                 }
             }
-                VStack {
+              
                     
                     Rectangle()
                    
-                }
+            
                 .padding()
             }
         }
