@@ -46,12 +46,12 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     ForEach(0..<5) { _ in
-                        Image(systemName: "globe")
+                        Image(systemName: "house.fill")
                             .font(.largeTitle)
                             .foregroundStyle(.tint)
                         Text("Manjula Uday❤️")
                         
-                        Button("Subscribe Now") {
+                        Button("Subscribe!!!!") {
                             
                         }
                     }
