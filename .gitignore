@@ -1,0 +1,94 @@
+####################################
+# macOS
+####################################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+####################################
+# Xcode
+####################################
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+####################################
+# Xcode user-specific settings
+####################################
+xcuserdata/
+*.xcuserdatad
+
+####################################
+# Xcode temporary files
+####################################
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+####################################
+# Swift Package Manager
+####################################
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+
+####################################
+# CocoaPods
+####################################
+Pods/
+Podfile.lock
+
+####################################
+# Carthage
+####################################
+Carthage/Build/
+
+####################################
+# fastlane
+####################################
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+####################################
+# Playgrounds
+####################################
+timeline.xctimeline
+playground.xcworkspace
+
+####################################
+# Logs & temporary files
+####################################
+*.log
+*.tmp
+*.swp
+
+####################################
+# Environment & secrets
+####################################
+.env
+*.env
+
+####################################
+# Coverage & test results
+####################################
+*.profdata
+*.gcno
+*.gcda
+
+####################################
+# Xcode archives
+####################################
+*.xcarchive
+
+####################################
+# SwiftLint
+####################################
+.swiftlint.yml
+.swiftlint.cache
