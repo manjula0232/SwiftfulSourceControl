@@ -1,0 +1,21 @@
+//
+//  ProfileView.swift
+//  SwiftfulSourceControl
+//
+//  Created by uday on 06/01/26.
+//
+
+import SwiftUI
+
+struct ProfileView: View {
+    
+    @State private var isPremium: Bool = false
+    
+    var body: some View {
+        Text("Manju")
+    }
+}
+
+#Preview {
+    ProfileView()
+}
